@@ -1,5 +1,5 @@
 import os, unittest, uuid
-from dirsearch import dirsearch
+from .dirsearch import dirsearch
 
 
 class test_dirsearch(unittest.TestCase):

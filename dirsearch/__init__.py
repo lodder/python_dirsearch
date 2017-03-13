@@ -1,1 +1,1 @@
-from dirsearch import dirsearch
+from .dirsearch import dirsearch
