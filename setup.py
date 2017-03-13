@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='dirsearch',
     packages=['dirsearch'],
-    version='1.0.0',
+    version='1.0.1',
     description='A simple wrapper to perform a case-insensitive wildcard directory search',
     author='Shaun Lodder',
     author_email='shaun.lodder@gmail.com',
