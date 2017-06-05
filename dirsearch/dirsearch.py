@@ -4,7 +4,7 @@ import glob
 
 def dirsearch(path, extension='*.*', recursive=True):
     if not os.path.isdir(path):
-        raise ('Error: \'%s\' is not a valid directory', path)
+        raise Exception('Invalid directory specified: {}'.format(path))
 
     if recursive:
         return list([y for x in os.walk(path) for y in _insensitive_glob(os.path.join(x[0], extension))])
